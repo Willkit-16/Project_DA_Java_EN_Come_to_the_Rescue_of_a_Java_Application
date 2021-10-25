@@ -12,6 +12,9 @@ public class AnalyticsCounterV2 {
 		ISymptomCounter countFile = new CountSymptom();
 		TreeMap<String, Long> mapSymptom = countFile.init(lines);
 
-		System.out.println(mapSymptom);
+		ISymptomWriter writeFile = new WriteSymptom("Project02Eclipse/result.out");
+		List<String> result = writeFile.finalSymptoms(mapSymptom);
+
+		System.out.println(result);
 	}
 }
