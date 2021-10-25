@@ -1,3 +1,5 @@
 Sample project for OpenClassroom's fundamentals of Java
 
-V0.0.2 Read and Count File symptom.txt
+V1.0.0 Read, Count File symptom.txt, and Write resulte.out
+
+by Willy S.
