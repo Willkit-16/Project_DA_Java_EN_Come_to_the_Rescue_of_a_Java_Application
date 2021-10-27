@@ -7,6 +7,12 @@ import java.util.List;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
+/**
+ * return a list, with symptoms and their occurrences, and write a file
+ * 
+ * @author seill
+ *
+ */
 public class WriteSymptom implements ISymptomWriter {
 	private String filepath;
 
@@ -15,16 +21,12 @@ public class WriteSymptom implements ISymptomWriter {
 	 * @param filepath a full or partial path to file with symptom strings in it,
 	 *                 one per line
 	 */
+
 	public WriteSymptom(String filepath) {
 		this.filepath = filepath;
 	}
 
-	/**
-	 * @param create file with list of sorted symptoms, one symptom per line with
-	 *               key and value
-	 *
-	 */
-
+	@Override
 	public List<String> finalSymptoms(TreeMap<String, Long> sortedSymptoms) {
 		List<String> res = new ArrayList<>();
 

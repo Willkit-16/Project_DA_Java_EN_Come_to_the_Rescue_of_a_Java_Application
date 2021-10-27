@@ -7,14 +7,18 @@ import java.util.TreeMap;
  * Use TreeMap to write a new list of sorted symptoms.
  * 
  */
-
 public interface ISymptomWriter {
 
 	/**
-	 * If no data is available, this will create an empty file
+	 * This method is used to return a list of symptoms and occurrences in String
+	 * from a Treemap
 	 * 
-	 * @return a list of sorted symptoms with their keys and values.
-	 *
+	 * @param sortedSymptoms Treemap with symptoms (key) and number of occurrences
+	 *                       (values)
+	 * 
+	 * 
+	 * @return a list of sorted symptoms with number of occurrences
+	 * 
 	 */
 	List<String> finalSymptoms(TreeMap<String, Long> sortedSymptoms);
 }
