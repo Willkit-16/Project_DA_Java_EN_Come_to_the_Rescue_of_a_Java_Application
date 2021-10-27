@@ -4,10 +4,10 @@ import java.util.List;
 import java.util.TreeMap;
 
 /**
+ * 
  * Count symptoms from list, and sorted by name.
- *
+ * 
  */
-
 public interface ISymptomCounter {
 
 	/**
