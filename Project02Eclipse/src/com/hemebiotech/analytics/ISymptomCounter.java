@@ -13,6 +13,8 @@ public interface ISymptomCounter {
 	/**
 	 * If no data is available, this will create an empty map
 	 * 
+	 * @param List of symptoms text
+	 * 
 	 * @return a raw map of all Symptoms counted and sorted from Symptom's List
 	 */
 	TreeMap<String, Long> init(List<String> symptomsText);
