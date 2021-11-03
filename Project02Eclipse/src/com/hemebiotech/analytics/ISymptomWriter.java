@@ -1,5 +1,6 @@
 package com.hemebiotech.analytics;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.TreeMap;
 
@@ -10,15 +11,13 @@ import java.util.TreeMap;
 public interface ISymptomWriter {
 
 	/**
-	 * This method is used to return a list of symptoms and occurrences in String
-	 * from a Treemap
-	 * 
 	 * @param sortedSymptoms Treemap with symptoms (key) and number of occurrences
 	 *                       (values)
 	 * 
 	 * 
 	 * @return a list of sorted symptoms with number of occurrences
+	 * @throws IOException
 	 * 
 	 */
-	List<String> finalSymptoms(TreeMap<String, Long> sortedSymptoms);
+	List<String> finalSymptoms(TreeMap<String, Long> sortedSymptoms) throws IOException;
 }
