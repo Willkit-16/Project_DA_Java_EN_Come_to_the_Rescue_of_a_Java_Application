@@ -7,7 +7,7 @@ IDE Eclipse
 
 # Getting Started 
 
-1. Copy URL : https://github.com/Willkit-16/Project_DA_Java_EN_Come_to_the_Rescue_of_a_Java_Application.git
+1. Choose Master branch, and Copy URL : https://github.com/Willkit-16/Project_DA_Java_EN_Come_to_the_Rescue_of_a_Java_Application.git
 
 2. Clone this in your IDE (Eclipse, IntelliJ...) and Import Project.
 
